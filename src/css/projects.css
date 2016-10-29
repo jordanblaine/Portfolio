@@ -1,0 +1,18 @@
+.projects{
+	width: 100%;
+	height: auto;
+	min-height: 90vh;
+	background: rgb(224, 224, 235);
+}
+.projects .project-1, .projects .project-2{
+	width: 49%;
+	min-height: 90vh;
+	height: auto;
+	display: inline-block;
+}
+.projects header{
+	height: 10vh;
+}
+.projects header h2{
+	text-align: center;
+}

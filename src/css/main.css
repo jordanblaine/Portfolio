@@ -1,0 +1,84 @@
+body{
+	height: 100%;
+	width: 100%;
+}
+#container{
+	width: 100%;
+	height: 100%;
+}
+.front-page{
+	background-color: rgb(70, 86, 112);
+	height: auto;
+	width: 100%;
+	min-height: 100vh;
+	padding-bottom: 3rem;
+}
+.main-header{
+	padding-top: 1.5rem;
+	height: 14rem;
+}
+.main-header .name{
+	text-align: center;
+}
+.name h2{
+	height: auto;
+	font: 300 80px/1 'Cookie', Helvetica, sans-serif;
+	text-shadow: 4px 4px 3px rgba(0,0,0,0.3);
+	margin-bottom: 1rem;
+}
+.main-header a{
+	color: rgb(191, 191, 191);
+}
+.main-header .name a:hover{
+	color: rgb(234,234,234);
+}
+.links ul{
+	width: 40vw;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 1.5em;
+	border-bottom: 3px solid white;
+}
+.links li{
+	width: auto;
+	height: auto;
+	display: inline-block;
+	margin: 10px 1.5rem;
+}
+.links a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	border: 2px rgb(70, 86, 112) solid;
+	margin: 5px;
+}
+.links a:hover{
+	background-color: rgb(98, 121, 157);
+	border: 2px white solid;
+	color: white;
+}
+.orbit{
+	margin: 0 auto;
+	height: auto;
+	width: 45vw;
+}
+.main img{
+	height: 100%;
+	width: 100%;
+	margin: 1px;
+}
+.orbit-slide {
+   display: none;
+}
+.orbit-slide.is-active{
+	display: block;
+}
+.main ul{
+	border: 5px black solid;
+	border-radius: 5px;
+}
+.divider{
+	height: 3px;
+	background-color: black;
+	width: 100%;
+}

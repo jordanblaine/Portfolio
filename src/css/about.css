@@ -1,0 +1,18 @@
+.about-header{
+	text-align: center;
+}
+.about-header h2{
+	
+}
+.about{
+	height: 40rem;
+	width: 100%;
+	background-color: rgb(238, 238, 221);
+}
+.about #description{
+	margin: 0 auto;
+	width: 40vw;
+	height: 20rem;
+	border: 5px solid black;
+	background-color: rgb(246, 246, 238);
+}
